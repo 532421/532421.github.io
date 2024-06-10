@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Links</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .button {
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .instagram {
+            background-color: #E1306C; /* Instagram color */
+        }
+        .facebook {
+            background-color: #4267B2; /* Facebook color */
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+    </style>
+    <script>
+        function openInstagram() {
+            window.open('https://www.instagram.com', '_blank');
+        }
+
+        function openFacebook() {
+            window.open('https://www.facebook.com', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <button class="button instagram" onclick="openInstagram()">Open Instagram</button>
+    <button class="button facebook" onclick="openFacebook()">Open Facebook</button>
+</body>
+</html>
