@@ -7,11 +7,23 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             background-color: white;
             font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .follow-us {
+            font-size: 24px;
+            color: #FFD700; /* Gold color */
+            margin-bottom: 20px;
         }
         .button {
             padding: 15px 25px;
@@ -42,8 +54,8 @@
     </script>
 </head>
 <body>
-    <img src="./logo.jpg" alt="Logo" class="logo"><be>
-    <div class="follow-us">Follow Us</div><be>
+    <img src="./logo.jpg" alt="Logo" class="logo">
+    <div class="follow-us">Follow Us</div>
     <button class="button instagram" onclick="openInstagram()">Open Instagram</button>
     <button class="button facebook" onclick="openFacebook()">Open Facebook</button>
 </body>
